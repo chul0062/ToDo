@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="js-clock">
+        <h1 class="js-title">00:00</h1>
+        <h6 class="date">0000</h6>
+      </div>
+      <form class="js-form form">
+        <input
+          class="nameInput"
+          type="text"
+          placeholder="당신의 이름을 알려주세요"
+        />
+      </form>
+      <h4 class="js-greeting greeting"></h4>
+      <form class="js-toDoForm">
+        <input
+          class="formInput"
+          type="text"
+          placeholder="오늘은 무엇을 하실건가요?"
+        />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+    <span class="js-weather"></span>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
